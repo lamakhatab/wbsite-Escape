@@ -1,0 +1,490 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+    background: #ffffff;
+    color: #222222;
+    direction: ltr;
+}
+.section{
+     width: 100%;
+     margin: 0 auto;
+     padding: 50px 0px 120px 0px;
+     box-sizing: border-box;
+}
+.section1{
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 230px;
+    box-sizing: border-box;  
+}
+.section2{
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 0px 100px 0px;
+    box-sizing: border-box;
+    background: #fafafa;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+.clear{
+     clear: both;
+}
+.heroSection{
+     color: #ffffff;
+     background-image:  url("../img/bigBen.jpg") ; 
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     position: relative;
+     height: auto;    
+}
+.logo{
+    width: 50%;
+    float: left;
+}
+.menu{
+    width: 50%;
+    float: right;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left:30px;
+}
+.menu ul li a{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.menu ul li:first-child{
+    margin-left: 0px;
+}
+.heroDesc{
+    text-align: center;
+    padding-top:161px;
+    box-sizing: border-box;
+
+}
+.heroDesc p{
+    font-size: 32px;
+    font-weight: lighter;
+}
+.heroDesc h1{
+    margin-bottom: 60px;
+    font-size: 66px;
+}
+.btn{
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 22px 64px;
+    box-sizing: border-box;
+    transition-duration: 0.2s;
+}
+.btn:hover{
+    cursor: pointer;
+    background:rgb(184, 184, 66);
+    transition-duration: 0.2s;
+}
+.serviceSection{
+    color:#222222;
+    background: #ffffff;
+
+}
+.row{
+    width: 100%;
+    height: auto;
+    padding: 100px 30px 100px 30px;
+    box-sizing: border-box;
+}
+.serviceInfo{
+    float: left;
+    width: 640px;
+    
+}
+.serviceInfo h1,
+.serviceInfo h1 span{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 60px;
+    
+}
+span.textLIGHT{
+    font-weight: lighter;
+}
+p.textP{
+    color: #777777;
+    font-size: 18px;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+p.textP2{
+    color: #777777;
+    font-size: 18px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.iconIMG{
+    float: right;
+    width: calc( 100% - 640px);
+}
+
+ .left{
+    float: left;
+    width: 300px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+ .right{
+    float: right;
+    width: calc( 100% - 300px);
+    padding-left: 73px;
+    box-sizing: border-box;
+
+}
+.right h1,
+.right h1 span{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 60px;
+    
+}
+.serviceColumR{
+    width: 50%;
+    float: right;  
+}
+.serviceColumL{
+    width: 50%;
+    float: left;
+}
+.rowService{
+   width: 100%;
+   height: auto;
+   box-sizing: border-box;
+   padding-left: 30px; 
+   display: block;
+}
+.icon{
+    float: left;
+    width: 80px;
+}
+.icon a{
+    width: 70px;
+    height: 76px;
+    border: 18px solid #000;
+    border-radius: 50%;
+    background: #000;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 96px;
+}
+.serviceContainer{
+     float: right;
+     width: calc(100% - 80px);
+     margin: 0;
+     box-sizing: border-box;
+     padding-left: 10px;
+}
+.serviceContainer h4{
+    font-size: 22px;
+    color: #000000;
+    font-weight: 500;
+    text-align: left;
+    margin: 0;
+}
+.serviceContainer p{
+    font-size: 18px;
+    color: #777777;
+    font-weight: lighter;
+    text-align: left;
+    margin-top: 0px;
+
+}
+.sectionClient{
+    height: auto;
+}
+.title{
+    text-align: center;
+}
+.title h1,
+.title p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.title h1{
+    font-size: 60px;
+}
+.title p{
+    font-size: 22px;
+    color: #777777;
+}
+.rowClient{
+    width: 100%;
+    height: auto;
+}
+.imgClient{
+    float: left;
+    width: 251px;
+}
+.imgClient2{
+    float: right;
+    width: calc(100% - 705px);
+}
+.clientWords{
+    float: right;
+    width: calc( 100% - 251px);
+    box-sizing: border-box;
+    padding: 0px 40px 0px 40px;
+}
+.clientWords2{
+    float: left;
+    width: 705px;
+    box-sizing: border-box;
+    padding: 0px 40px 0px 40px;
+}
+.imgClient img.clientIMG {
+    background: #000000;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin-top: 51px;
+
+}
+.imgClient2 img.clientIMG2{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin-top: 57px;
+}
+.continerCLient{
+    background: #ffffff;
+    margin-top: 80px;
+    box-sizing: border-box;
+    padding: 41px 72px 46px 77px;
+}
+.continerClient2{
+    background: #ffffff;
+    margin-top: 80px;
+    box-sizing: border-box;
+    padding: 41px 72px 46px 77px;
+
+}
+.clinetPerg{
+    margin: 0;
+    font-size: 26px;
+    color: #777777;
+}
+.clinetPerg2{
+    margin: 0;
+    font-size: 26px;
+    color: #777777;
+}
+.clientINFO{
+    margin: 0;
+    font-size: 20px;
+    color: #7690c5;
+}
+.clientINFO2{
+    margin: 0;
+    font-size: 20px;
+    color: #7690c5;
+}
+.logoSection{
+    width: 100%;
+    height: AUTO;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 40px 0px 40px 0px;
+}
+.logoSection ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left:40px;
+}
+.logoSection ul{
+    text-align: center;
+}
+.sectionTeam{
+    background: #111111;
+    color: #ffffff;
+}
+.teamContainer{
+    box-sizing: border-box;
+    padding: 72px 40px 0px 40px;
+    text-align: center;
+}
+.teamColum{
+    width:33.33%;
+    height: auto;
+    margin: 0 auto;
+    float: left;
+    box-sizing: border-box;
+    padding-bottom: 46px;
+}
+.imgTeam img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border:5px solid #ffffff;
+    text-align: center;
+}
+.teamName{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: bold;
+   
+}
+.career{
+  font-weight: lighter;
+  margin-top: 0;
+}
+.soicalLink{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.soicalLink a{
+    width: 31px;
+    height: 31px;
+    border: 2px solid #ffffff;
+    background: #111111;
+    border-radius: 50%;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18;
+    line-height: 31px;
+    transition-duration: 0.2s;
+}
+.soicalLink a:hover{
+    background:#01010101;
+    transition-duration: 0.2s;
+}
+.lastP{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+.contantSection{
+    background: #7690c5;
+    color: #ffffff;
+    margin: 0;
+}
+.socialContant,
+.leftSocial,
+.leftService{
+    width: 50%;
+    float: left;
+}
+.formContant,
+.rightSocial,
+.rightService{
+    width: 50%;
+    float: right;
+}
+.socialContant h1{
+    font-size: 60px;
+    text-align: left;
+    margin: 0;
+}
+.socialContant p{
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
+}
+.social{
+    width: 100%;
+    margin: 0;
+    height: auto;
+}
+.iconColum{
+    float: left;
+    width: 40px;
+}
+.textColum{
+    float: right;
+    width: calc(100% - 40px);
+}
+.iconColum ul li{
+    color: #ffffff;
+    list-style-type: none;
+    font-size: 18px;
+    text-align: left;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+
+}
+.iconColum ul li:last-child{
+    box-sizing: border-box;
+    padding-bottom: 0;
+}
+.iconColum ul{
+    margin: 0;
+    margin-top: 45px;
+    margin-bottom: 16px;
+}
+.textColum ul li{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #ffffff;
+    text-align: left;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+}
+.textColum ul{
+    margin: 0;
+    margin-top: 45px;
+    margin-bottom: 16px;
+}
+.formContant input,textarea{
+    display: block;
+    width: 100%;
+    margin-left: 14px;
+    margin-bottom: 24px;
+}
+.formContant input{
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding-top: 14px;
+    padding-left: 17px;
+    padding-bottom: 21px;
+    border: 0;
+}
+.formContant textarea{
+    border: 0;
+    border-radius: 2px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    padding-top: 23px;
+    padding-left: 21px
+}
+.sectionfooter{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 29px 0px 29px 0px;
+}
+.sectionfooter p{
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+}
